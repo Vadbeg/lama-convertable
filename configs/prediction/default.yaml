@@ -2,7 +2,7 @@ indir: no  # to be overriden in CLI
 outdir: no  # to be overriden in CLI
 
 model:
-  path: no  # to be overriden in CLI
+  path: /Users/vadim.tsitko/Projects/Personal/AIPulse/AIMagic/lama/checkpoints/big-lama  # to be overriden in CLI
   checkpoint: best.ckpt
 
 dataset:
@@ -12,6 +12,7 @@ dataset:
 
 device: cuda
 out_key: inpainted
+save_path: /Users/vadim.tsitko/Projects/Personal/AIPulse/AIMagic/lama/checkpoints/big-lama/big-lama.jit.pt
 
 refine: False # refiner will only run if this is True
 refiner:
